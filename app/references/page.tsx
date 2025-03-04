@@ -74,7 +74,7 @@ export default function ReferencesPage() {
             The information provided in Milo ka Silo is for educational purposes
             only and is not intended to replace professional veterinary advice,
             diagnosis, or treatment. Always seek the advice of your veterinarian
-            with any questions you may have regarding Milo's health.
+            with any questions you may have regarding Milo&apos;s health.
           </p>
           <p className="text-gray-700">
             Every effort has been made to ensure the accuracy of the information

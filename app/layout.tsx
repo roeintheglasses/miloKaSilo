@@ -50,7 +50,7 @@ export default function RootLayout({
                 <h3 className="text-lg font-semibold mb-4">Milo ka Silo</h3>
                 <p className="text-gray-400 text-sm">
                   A comprehensive resource for understanding and taking care of
-                  Milo's health.
+                  Milo&apos;s health.
                 </p>
               </div>
               <div>

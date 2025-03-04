@@ -10,8 +10,8 @@ export default function Home() {
             Milo ka Silo
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A comprehensive resource for understanding and taking care of Milo's
-            health.
+            A comprehensive resource for understanding and taking care of
+            Milo&apos;s health.
           </p>
         </header>
 
@@ -50,28 +50,24 @@ export default function Home() {
             title="Neonatal Period"
             ageRange="Birth to 2 Weeks"
             description="The earliest stage, where kittens are highly dependent and vulnerable."
-            imageSrc="/images/neonatal-kitten.jpg"
           />
           <AgeGroupCard
             id="post-neonatal"
             title="Post-Neonatal"
             ageRange="2 Weeks to 8 Weeks"
             description="Kittens start exploring, with eyes open and increased exposure."
-            imageSrc="/images/post-neonatal-kitten.jpg"
           />
           <AgeGroupCard
             id="young"
             title="Young Kittens"
             ageRange="8 Weeks to 6 Months"
             description="More independent, with growing activity and environmental interaction."
-            imageSrc="/images/young-kitten.jpg"
           />
           <AgeGroupCard
             id="older"
             title="Older Kittens"
             ageRange="6 Months to 1 Year"
             description="Approaching adulthood, with emerging adult-like health concerns."
-            imageSrc="/images/older-kitten.jpg"
           />
         </section>
 
@@ -110,13 +106,11 @@ function AgeGroupCard({
   title,
   ageRange,
   description,
-  imageSrc,
 }: {
   id: string;
   title: string;
   ageRange: string;
   description: string;
-  imageSrc: string;
 }) {
   return (
     <Link href={`/age-group/${id}`}>

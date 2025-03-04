@@ -1,6 +1,6 @@
 "use client";
 
-import { ageGroups, Disease } from "@/app/data/diseases";
+import { ageGroups } from "@/app/data/diseases";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -178,8 +178,8 @@ export default function AllDiseasesPage() {
               No diseases found
             </h3>
             <p className="text-gray-600">
-              Try adjusting your search or filter criteria to find what you're
-              looking for.
+              Try adjusting your search or filter criteria to find what
+              you&apos;re looking for.
             </p>
           </div>
         )}

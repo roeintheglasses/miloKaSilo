@@ -12,7 +12,7 @@ export default function NotFound() {
 
         <p className="text-gray-600 max-w-md mx-auto mb-8">
           Oops! It looks like this page has wandered off to chase a toy mouse.
-          Let's get you back to where you need to be.
+          Let&apos;s get you back to where you need to be.
         </p>
 
         <Link

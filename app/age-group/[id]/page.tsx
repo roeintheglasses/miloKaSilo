@@ -103,7 +103,7 @@ export default function AgeGroupPage({ params }: { params: { id: string } }) {
           <p className="text-gray-700">
             This information is meant to guide, not replace, professional
             veterinary care. Always consult your veterinarian for personalized
-            advice tailored to your kitten's specific needs.
+            advice tailored to your kitten&apos;s specific needs.
           </p>
         </div>
       </div>
