@@ -2,6 +2,14 @@ import { ageGroups } from "@/app/data/diseases";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+// Define the params for static generation
+export async function generateStaticParams() {
+  return ageGroups.map((group) => ({
+    id: group.id,
+  }));
+}
+
+// Use the standard params pattern for Next.js 15
 export default function AgeGroupPage({ params }: { params: { id: string } }) {
   const ageGroup = ageGroups.find((group) => group.id === params.id);
 
